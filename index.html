@@ -1,11 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>rahulc0dy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="CSS/index-styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <title>rahulc0dy.com</title>
 </head>
-<body style="background: wheat;">
-	<h1 style="color: rgb(20,36,86);">Jai MAHAKAAL</h1>
+
+<body onload=topFunction()>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rahulc0dy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dk-footer">Info</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Also named as <b>SPYDER | CODY</b>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <main id="content">
+        <div class="container" id="spacing"></div>
+        <div class="container-fluid">
+            <h1 id="am" class=" d-block display-1">I WISH TO BE A</h1>
+            <br>
+            <hr>
+            <section id="my-job">WEB DEVELOPER</section>
+        </div>
+        <hr id="hr-cards">
+        <div id="works" class="row">
+            <h1 id="works-heading">WORKS</h1>
+            <div class="card col-3 m-5 bg-dark" style="width: 20rem;">
+                <img src="Images/www.freecodecamp.org_certification_rahulc0dy_responsive-web-design (2).png" class="card-img-top m-1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Responsive Web Design Certification</h5>
+                    <p class="card-text">Recieved this certificate from freecodecamp.org on 15th Feb, 2021</p>
+                    <a href="https://freecodecamp.org/certification/rahulc0dy/responsive-web-design" class="btn btn-primary w-100" target="blank">View</a>
+                </div>
+            </div>
+            <div class="card col-3 m-5 bg-dark" style="width: 20rem;">
+                <img src="Images/www.freecodecamp.org_certification_rahulc0dy_scientific-computing-with-python-v7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Scientific Computing with Python Certification</h5>
+                    <p class="card-text">Recieved this certificate from freecodecamp.org on 12th Feb, 2021</p>
+                    <a href="https://freecodecamp.org/certification/rahulc0dy/scientific-computing-with-python-v7" class="btn btn-primary w-100" target="blank">View</a>
+                </div>
+            </div>
+            <div class="card col-3 m-5 bg-dark" style="width: 20rem;">
+                <img src="Images/coming_soon.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">More soon</h5>
+                    <p class="card-text">I am working all time and this section will be filled soon</p>
+                    <a href="#" class="btn btn-primary w-100 flex-last">Wait...</a>
+                </div>
+            </div>
+            <div class="card col-3 m-5 bg-dark" style="width: 20rem;" hidden>
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary btn-block w-100">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-3 m-5 bg-dark" style="width: 20rem;" hidden>
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-3 m-5 bg-dark" style="width: 20rem;" hidden>
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="dk-footer" class="dk-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="dk-footer-box-info">
+                        <a href="index.html" class="footer-logo">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo" class="img-fluid">
+                        </a>
+                        <p class="footer-info-text">
+                            Official github page of <b>Rahul Chakraborty</b> built with modern technologies and web frameworks
+                        </p>
+                        <div class="footer-social-link">
+                            <h3>Follow us</h3>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100014828464056" target="blank">
+                                        <i class="fa fa-facebook">
+                                            <img src="bootstrap-icons-1.4.0/facebook.svg" alt="">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/rahulc0dy/" target="blank">
+                                        <i class="fa fa-twitter">
+                                            <img src="bootstrap-icons-1.4.0/twitter.svg" alt="">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="rahulchakraborty337@gmail.com" target="blank">
+                                        <i class="fa fa-google-plus">
+                                            <img src="bootstrap-icons-1.4.0/google.svg" alt="">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin">
+                                            <img src="bootstrap-icons-1.4.0/linkedin.svg" alt="">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/rahulc0dy/" target="blank">
+                                        <i class="fa fa-instagram">
+                                            <img src="bootstrap-icons-1.4.0/instagram.svg" alt="">
+                                        </i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Social link -->
+                    </div>
+                    <!-- End Footer info -->
+                    <div class="footer-awarad">
+                        <img src="images/icon/best.png" alt="">
+                        <p>Self taught Web designer and Developer</p>
+                    </div>
+                </div>
+                <!-- End Col -->
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-us">
+                                <div class="contact-icon">
+                                    <i class="fa fa-map-o" aria-hidden="true"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3>West Bengal, India</h3>
+                                    <p>Ituri, Bankura</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="contact-us contact-us-last">
+                                <div class="contact-icon">
+                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3>rahulchakraborty337@gmail.com</h3>
+                                    <p>Email me for contact</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Contact Row -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget footer-left-widget">
+                                <div class="section-heading">
+                                    <h3>Useful Links</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Our Team</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="#">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Testimonials</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Faq</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Footer Widget -->
+                        </div>
+                        <!-- End col -->
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget">
+                                <div class="section-heading">
+                                    <h3>Subscribe</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                <form action="#">
+                                    <div class="form-row">
+                                        <div class="col dk-footer-form">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                            <button type="submit">
+                                                <i class="fa fa-send">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cursor" viewBox="0 0 16 16">
+                                                        <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z" />
+                                                    </svg>
+                                                </i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- End form -->
+                            </div>
+                            <!-- End footer widget -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Widget Row -->
+        </div>
+        <!-- End Contact Container -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>Copyright © 2019, All Right Reserved Seobin</span>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6">
+                        <div class="copyright-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#dk-footer">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Copyright Container -->
+        </div>
+        <!-- End Copyright -->
+        <!-- Back to top -->
+        <div onclick="topFunction()" id="back-to-top" class="back-to-top">
+            <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
+        <!-- End Back to top -->
+    </footer>
 </body>
+<script type="text/javascript" src="JS/indexPage.js"></script>
+<script type="text/javascript" src="bootstrap-5.0.0-beta2-dist/js/bootstrap.js"></script>
+
 </html>
