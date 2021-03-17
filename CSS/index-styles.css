@@ -465,7 +465,7 @@ p {
 #content {
     width: 100%;
     height: auto;
-    background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #225dc9 76.05%);
+    background: linear-gradient(130deg, #4114b3, #af002d 41.07%, #225dc9 76.05%);
     animation-name: gradience;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -479,6 +479,7 @@ p {
     align-content: center;
     text-align: center;
     margin: auto 0;
+    font-size: 7vw;
     font-family: 'Akaya Telivigala', cursive;
     background: #121026;
     text-shadow: -4px -3px 0px #7ca30f;
@@ -493,7 +494,7 @@ hr {
 
 #my-job {
     text-align: center;
-    font-size: 6rem;
+    font-size: 10vw;
     font-family: 'Fredoka One', cursive;
     text-shadow: 3px 3px 3px #000;
 }
