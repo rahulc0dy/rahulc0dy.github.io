@@ -613,7 +613,9 @@ section .card-img {
 
 #technologies .btn-outline-warning {
     position: absolute;
+    right: 2.5%;
     bottom: 5%;
+    width: 95%;
 }
 
 #technologies .card-text {
