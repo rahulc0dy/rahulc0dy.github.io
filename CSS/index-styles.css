@@ -14,9 +14,10 @@ html {
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
 @font-face {
-  font-family: 'Satisfy';
-  src: url('Satisfy-Regular.ttf');
+    font-family: 'Satisfy';
+    src: url('../fonts/Satisfy-Regular.ttf');
 }
 
 /* footer styles */
@@ -469,8 +470,8 @@ p {
 }
 
 #content {
-  padding: 0;
-  padding-bottom: 2%;
+    padding: 0;
+    padding-bottom: 2%;
     width: 100%;
     height: auto;
     background: linear-gradient(130deg, #4114b3, #af002d 41.07%, #225dc9 76.05%);
@@ -508,6 +509,7 @@ hr {
 }
 
 #works {
+
     text-align: center;
     align-items: center;
     align-self: center;
@@ -570,52 +572,63 @@ hr {
 
 /* Technologies working on section */
 
-#technologies{
-  background: #15202b;
-  border-radius: 1%;
-  margin: auto;
-  width: 95vw;
-  justify-content: space-evenly;
-  padding: 0;
+#technologies {
+    background: #15202b;
+    border-radius: 1%;
+    margin: auto;
+    width: 95vw;
+    justify-content: space-evenly;
+    padding: 0;
 }
 
-#technologies-heading{
-  font-size: 4vw;
-  font-family: serif;
-  margin-bottom: 5%;
-  color: #86bdbf;
-  text-shadow: -2px -2px 0 #000;
-  font-family: 'Russo One', sans-serif;
+#technologies-heading {
+    font-size: 4vw;
+    font-family: serif;
+    margin-bottom: 5%;
+    color: #86bdbf;
+    text-shadow: -2px -2px 0 #000;
+    font-family: 'Russo One', sans-serif;
 }
 
 #technologies .card {
-  background: #22303c;
-  box-shadow: -14px 15px 39px #020d1a;
-  border: 2px solid #15202b;
-  height: max-content + 5%;
+    background: #22303c;
+    box-shadow: -14px 15px 39px #020d1a;
+    border: 2px solid #15202b;
+    height: max-content + 10%;
 }
 
 section .card-img {
-  width: auto;
-  height: 10rem;
-  max-width: 100%;
-  background-position: center;
-  overflow: hidden;
+    width: auto;
+    height: 10rem;
+    max-width: 100%;
+    background-position: center;
+    overflow: hidden;
 }
 
 #technologies .card-title {
-  padding-top: 3px;
-  font-size: 2rem;
-  text-shadow: -2px -2px 0 #000e1a;
+    padding-top: 3px;
+    font-size: 2rem;
+    text-shadow: -2px -2px 0 #000e1a;
 }
 
 #technologies .btn-outline-warning {
-  position: absolute;
-  bottom: 5%;
-  right: 32%;
+    position: absolute;
+    bottom: 5%;
 }
 
 #technologies .card-text {
-  height: 30%;
-  overflow: hidden;
+    height: 30%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+    #technologies .card-body {
+        height: max-content + 60%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+  #technologies .card-body {
+        height: max-content + 100%;
+    }
 }
