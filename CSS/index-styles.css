@@ -10,8 +10,14 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@font-face {
+  font-family: 'Satisfy';
+  src: url('Satisfy-Regular.ttf');
+}
 
 /* footer styles */
 
@@ -463,6 +469,8 @@ p {
 }
 
 #content {
+  padding: 0;
+  padding-bottom: 2%;
     width: 100%;
     height: auto;
     background: linear-gradient(130deg, #4114b3, #af002d 41.07%, #225dc9 76.05%);
@@ -537,9 +545,11 @@ hr {
     color: #03fcba;
 }
 
+
 #works-heading {
     margin-top: 7rem;
     color: #0a132e;
+    font-size: 4vw;
     font-weight: 600;
     text-shadow: -2px -2px 0 grey;
     font-family: 'satisfy', cursive;
@@ -555,4 +565,57 @@ hr {
 
 #spacing {
     padding: 6vh;
+}
+
+
+/* Technologies working on section */
+
+#technologies{
+  background: #15202b;
+  border-radius: 1%;
+  margin: auto;
+  width: 95vw;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+#technologies-heading{
+  font-size: 4vw;
+  font-family: serif;
+  margin-bottom: 5%;
+  color: #86bdbf;
+  text-shadow: -2px -2px 0 #000;
+  font-family: 'Russo One', sans-serif;
+}
+
+#technologies .card {
+  background: #22303c;
+  box-shadow: -14px 15px 39px #020d1a;
+  border: 2px solid #15202b;
+  height: max-content + 5%;
+}
+
+section .card-img {
+  width: auto;
+  height: 10rem;
+  max-width: 100%;
+  background-position: center;
+  overflow: hidden;
+}
+
+#technologies .card-title {
+  padding-top: 3px;
+  font-size: 2rem;
+  text-shadow: -2px -2px 0 #000e1a;
+}
+
+#technologies .btn-outline-warning {
+  position: absolute;
+  bottom: 5%;
+  right: 32%;
+}
+
+#technologies .card-text {
+  height: 30%;
+  overflow: hidden;
 }
