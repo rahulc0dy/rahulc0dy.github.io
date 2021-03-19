@@ -517,6 +517,15 @@ hr {
     justify-content: space-evenly;
 }
 
+#works-heading {
+    margin-top: 7rem;
+    color: #0a132e;
+    font-size: 4vw;
+    font-weight: 600;
+    text-shadow: -2px -2px 0 grey;
+    font-family: 'Russo One', sans-serif;
+}
+
 #hr-cards {
     border: 5px solid gray;
     text-align: center;
@@ -548,14 +557,7 @@ hr {
 }
 
 
-#works-heading {
-    margin-top: 7rem;
-    color: #0a132e;
-    font-size: 4vw;
-    font-weight: 600;
-    text-shadow: -2px -2px 0 grey;
-    font-family: 'satisfy', cursive;
-}
+
 
 /* Nav bar styles */
 
