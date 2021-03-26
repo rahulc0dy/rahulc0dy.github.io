@@ -536,7 +536,7 @@ hr {
 
 /* card styles */
 .card {
-    height: 25rem;
+    height: 31rem;
     box-shadow: -14px 15px 39px #22303c;
 }
 
@@ -620,19 +620,13 @@ section .card-img {
     width: 95%;
 }
 
-#technologies .card-text {
-    height: 30%;
+/* #technologies .card-text {
+    
     overflow: hidden;
-}
+} */
 
 @media only screen and (max-width: 700px) {
     #technologies .card-body {
         height: max-content + 60%;
-    }
-}
-
-@media screen and (max-width: 300px) {
-  #technologies .card-body {
-        height: max-content + 100%;
     }
 }
