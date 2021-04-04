@@ -308,6 +308,7 @@ p {
     padding: 14px 28px;
     border-radius: 50px;
     background: #2E2E2E;
+    color: lightgray;
     border: 1px solid #2E2E2E;
 }
 
@@ -497,7 +498,11 @@ p {
 }
 
 hr {
-    background: linear-gradient(90deg, rgba(231, 48, 16, 1) 0%, rgba(235, 159, 16, 1) 35%, rgba(255, 248, 0, 1) 100%);
+    background: linear-gradient(
+        90deg, 
+        rgba(231, 48, 16, 1) 0%, 
+        rgba(235, 159, 16, 1) 35%,         rgba(255, 248, 0, 1) 100%
+    );
 
 }
 
@@ -576,7 +581,7 @@ hr {
 
 #technologies {
     background: #15202b;
-    border-radius: 1%;
+    border-radius: 5px;
     margin: auto;
     width: 95vw;
     justify-content: space-evenly;
@@ -620,10 +625,8 @@ section .card-img {
     width: 95%;
 }
 
-/* #technologies .card-text {
-    
-    overflow: hidden;
-} */
+
+
 
 @media only screen and (max-width: 700px) {
     #technologies .card-body {

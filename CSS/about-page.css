@@ -1,0 +1,23 @@
+#animation {
+	position: relative;
+	width: 20vw;
+	height: 20vw;
+	background: #f55;
+	background-image: url('../Images/css3-logo.svg');
+	background-size: cover;
+	box-shadow: 0 0 0 30px #202100;
+	border-radius: 10%;
+	margin: 0 auto;
+	animation: x-rotate 2s infinite forwards;
+}
+
+@keyframes x-rotate {
+	0% {
+		transform: rotate3d(.5, .5, .5, 0deg);
+	}
+
+	100% {
+		transform: rotate3d(.5, .5, .5, 360deg);
+	}
+
+}
