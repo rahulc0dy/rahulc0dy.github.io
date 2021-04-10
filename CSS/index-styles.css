@@ -633,3 +633,7 @@ section .card-img {
         height: max-content + 60%;
     }
 }
+
+#nav-img{
+    margin-right: 7px;
+}
