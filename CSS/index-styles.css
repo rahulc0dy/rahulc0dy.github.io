@@ -628,12 +628,42 @@ section .card-img {
 
 
 
-@media only screen and (max-width: 700px) {
-    #technologies .card-body {
-        height: max-content + 60%;
-    }
-}
+
 
 #nav-img{
     margin-right: 7px;
+}
+
+/* donations section styles */
+
+#donations{
+    width: 97%;
+    border-radius: 10px;
+    margin: 3vh 0;
+    padding: 1%;
+    background: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#donations > p {
+    display: block;
+    font-size: 2rem;
+    padding-top: 1%;
+    padding-left: 5%;
+    font-weight: 800;
+    color: grey;
+}
+
+@media only screen and (max-width: 700px) {
+    #donations > p {
+        font-size: 1rem;
+        padding-left: 0;
+    }
+    #donations {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
