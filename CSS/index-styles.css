@@ -455,20 +455,6 @@ p {
 
 /* footer style end */
 
-/* content styles */
-
-/* Background animation */
-
-@keyframes gradience {
-
-    0% {
-        background-position: 0%;
-    }
-
-    100% {
-        background-position: 100%;
-    }
-}
 
 #content {
     padding: 0;
@@ -476,12 +462,6 @@ p {
     width: 100%;
     height: auto;
     background: linear-gradient(130deg, #4114b3, #af002d 41.07%, #225dc9 76.05%);
-    animation-name: gradience;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    background-size: 600% 100%;
-    animation-timing-function: linear;
-    animation-direction: alternate;
 }
 
 #am {
